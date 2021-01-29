@@ -23,6 +23,11 @@ public class PrimeNumberChecker {
     public String checkIfPrime(@PathParam("number") long number) {
 
         System.out.println("What?" + number);
+        
+        int temp;
+        for (int j=0; j<100000; j++) {
+            temp += j;
+        }
 
         if (number < 1) {
             return "Only natural numbers can be prime numbers.";
