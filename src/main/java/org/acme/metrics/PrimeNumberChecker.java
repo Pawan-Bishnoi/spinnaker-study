@@ -24,7 +24,7 @@ public class PrimeNumberChecker {
 
         System.out.println("What?" + number);
         
-        int temp;
+        int temp=1;
         for (int j=0; j<100000; j++) {
             temp += j;
         }
